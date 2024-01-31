@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+}
+.container{
+    margin :auto;
+    height: 100%;
+    display: flex;
+    width:calc(100% - 300px);
+}
+.box{
+    height: 100vh;
+}
+.row{
+    
+    width:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    box-shadow: 0px 0px 1px rgb(145, 144, 144);
+    padding :10px;
+    margin: auto;
+    
+}
+.tasks input:last-of-type{
+    background-color: rgb(31, 199, 31);
+    color:rgb(255, 255, 255);
+    border:green;
+    padding: 3px;
+    border-radius: 3px;
+}
+ul{
+    width: 100%;
+    
+    
+    
+}
+ul li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+    list-style-type: none;
+    background-color: rgb(233, 231, 231);
+    margin-block: 5px;
+    border-radius: 3px;
+    padding: 3px;
+}
+.unlist{
+    text-decoration: line-through;
+}
+.list{
+    text-decoration: none;
+}/*لما بدي اجيب العنصر بنص الصفحة لما اعطي الكونتير 100%من ابوه يلي ماخذ 100vh*/
